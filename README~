@@ -1,0 +1,9 @@
+This is a blog application. 
+On you terminal, cd to the directory of this application and type following commands one by one:
+	source myvenv/bin/activate
+	python manage.py runserver
+This will run the server on your computer
+Now type the URL http://localhost:8000/ on your browser to see the blog!!!
+
+A non-authenticated user can see posts and add comments to the posts.
+An authenticated user can see, add, edit and delete posts. He can also approve the comments added by a non-authenticated user so that they can be displayed on the blog.
